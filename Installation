@@ -23,3 +23,17 @@ make altinstall -if you have older version
 [root@localhost bin]# python3 --version
 [root@localhost bin]# ln -s pip3.11  pip3
 [root@localhost bin]# pip3 --version
+------------------------------------------------------------------------------------------------------------------------------------
+
+indentation
+indent==> space
+-indentation are used to represent a block of code.
+-The amount of indentatio is up to you, but it must be consistent throughtout that block
+-Don't include an ident unnecessarly.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Comments
+#hello
+'''hheelll
+'''
+"heelsos"
