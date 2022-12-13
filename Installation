@@ -1,1 +1,25 @@
 
+default location  /usr/local/bin
+
+./configure  --prefix=/opt  /////installation directory 
+
+Make install -if doesn't have older version of python
+make altinstall -if you have older version 
+
+   wget https://www.python.org/ftp/python/3.11.1/Python-3.11.1.tgz
+   tar -xvf Python-3.11.1.tgz
+   cd Python-3.11.1
+   yum install gcc openssl-devel bzip2-devel libffi-devel
+   ./configure
+   make
+  make altinstall
+  python3.11 --version
+   pip3.11 --version
+   
+[root@localhost Python-3.11.1]# which python3.11
+
+[root@localhost Python-3.11.1]# cd /usr/local/bin/
+[root@localhost bin]# ln -s python3.11 python3
+[root@localhost bin]# python3 --version
+[root@localhost bin]# ln -s pip3.11  pip3
+[root@localhost bin]# pip3 --version
